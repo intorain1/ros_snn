@@ -215,48 +215,70 @@
 //------------------------------------------------------------------------------
 // POISON model P
 //------------------------------------------------------------------------------
-extern double ini_Poi[];
-extern double p_Poi[];
+extern double ini_Poi1[];
+extern double p_Poi1[];
+extern double ini_Poi2[];
+extern double p_Poi2[];
 //------------------------------------------------------------------------------
 // LIF model E&I
 //------------------------------------------------------------------------------
-extern double ini_Exc[];
-extern double p_Exc[];
-extern double ini_Inh[];
-extern double p_Inh[];
+extern double ini_Exc1[];
+extern double p_Exc1[];
+extern double ini_Inh1[];
+extern double p_Inh1[];
 //------------------------------------------------------------------------------
 // LIF model Cal
 //------------------------------------------------------------------------------
-extern double ini_Cal[];
-extern double p_Cal[];
+extern double ini_Cla1[];
+extern double p_Cla1[];
+extern double ini_Cla2[];
+extern double p_Cla2[];
 //------------------------------------------------------------------------------
 // postSynV
 //------------------------------------------------------------------------------
-extern double postExpP2E[2];
-extern double postExpE2I[2];
-extern double postExpI2E[2];
-extern double *postSynV;
+extern double postExpP2E1[2];
+extern double postExpE2I1[2];
+extern double postExpI2E1[2];
+extern double *postSynV1;
+extern double postExpP2E2[2];
+extern double postExpE2I2[2];
+extern double postExpI2E2[2];
+extern double *postSynV2;
+//
 //------------------------------------------------------------------------------
 // DA_STDP
 //------------------------------------------------------------------------------
-extern double ini_DA_STDP_PE[];
-extern double p_DA_STDP_PE[];
-extern double ini_DA_STDP_EC[];
-extern double p_DA_STDP_EC[];
+extern double ini_DA_STDP_PE1[];
+extern double p_DA_STDP_PE1[];
+extern double ini_DA_STDP_EC1[];
+extern double p_DA_STDP_EC1[];
+extern double ini_DA_STDP_PE2[];
+extern double p_DA_STDP_PE2[];
+extern double ini_DA_STDP_EC2[];
+extern double p_DA_STDP_EC2[];
+//------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
 // noSTDP
 //------------------------------------------------------------------------------
-extern double ini_noSTDP[];
-extern double *p_noSTDP_PE;
-extern double *p_noSTDP_EC;
+extern double ini_noSTDP1[];
+extern double *p_noSTDP_PE1;
+extern double *p_noSTDP_EC1;
+extern double ini_noSTDP2[];
+extern double *p_noSTDP_PE2;
+extern double *p_noSTDP_EC2;
+//------------------------------------------------------------------------------
 //------------------------------------------------------------------------------
 // E——>I & I——>E
 //------------------------------------------------------------------------------
-extern double ini_NSYNAPSE_EI[];
-extern double *p_NSYNAPSE_EI;
-extern double ini_NSYNAPSE_IE[];
-extern double *p_NSYNAPSE_IE;
-
+extern double ini_NSYNAPSE_EI1[];
+extern double *p_NSYNAPSE_EI1;
+extern double ini_NSYNAPSE_IE1[];
+extern double *p_NSYNAPSE_IE1;
+extern double ini_NSYNAPSE_EI2[];
+extern double *p_NSYNAPSE_EI2;
+extern double ini_NSYNAPSE_IE2[];
+extern double *p_NSYNAPSE_IE2;
+//------------------------------------------------------------------------------
 extern size_t size_gP2E;
 extern size_t size_gE2C;
 
