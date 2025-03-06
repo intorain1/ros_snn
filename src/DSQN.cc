@@ -8,6 +8,7 @@
 
 ## add ROS
 /*
+    int ss
     __global__ msg
     __global__ track
     __global__ sgm_num
